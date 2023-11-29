@@ -69,9 +69,8 @@ body {
 }
 
 .picture img {
-	width: 374px;
-	height: 373px;
-
+	width: 100%;
+	height:auto;
 }
 #about-me {
 	flex: 2
@@ -335,6 +334,7 @@ input[type="submit"] {
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
+
 	#services .container {
 		align-items: center;
 	}
@@ -349,7 +349,8 @@ input[type="submit"] {
 		width: 100%;
 	}
 	.picture {
-		width: 80%;
+		width: 50%;
+		height:auto;
 	}
 }
 
