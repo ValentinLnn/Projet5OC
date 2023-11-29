@@ -241,6 +241,7 @@ input[type="submit"] {
 	background-color: #46400b;
 	padding: .5em 1em;
 	color: #FFFFFF;
+	border-color: black;
 }
 
 @media all and (max-width: 1180px) {
